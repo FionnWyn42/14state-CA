@@ -4,7 +4,7 @@ The rules of this CA revolve around a lookup table which
 matches pairs of states to a new state
 
 At each time step all cells look to 2 neighbours*
-and based on those uses the lookup to find it's new state
+and based on those uses the lookup to find it's new state. If the state would go to 0 or 15, it remains the same (I call the forbidden states)
 
 which neighbours it looks at depends on it's current state
 and the timestep, cycling through a set number of neighbourhood pairs
