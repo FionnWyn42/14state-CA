@@ -17,4 +17,5 @@ based on a seed value, I would like to try and make it more precise line the
 lookup table
 
 * currently 2 neighbours don't need to be distinct so can be only looking at 1 state
-  
+
+Note: This code has been made with the help of a LLM (specificly gemini)
